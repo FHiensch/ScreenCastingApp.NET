@@ -1,0 +1,17 @@
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.csprojResolveAssemblyReference.cache
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\MainWindow.g.cs
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\App.g.cs
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient_MarkupCompile.cache
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient_MarkupCompile.lref
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\bin\Debug\ScreenCastingClient.exe.config
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\bin\Debug\ScreenCastingClient.exe
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\bin\Debug\ScreenCastingClient.pdb
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\MainWindow.baml
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.g.resources
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.Properties.Resources.resources
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.csproj.GenerateResource.Cache
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.exe
+A:\Users\Florian\Eigene Dokumente\Visual Studio 2015\Projects\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.pdb
+C:\Users\66583\Source\Repos\ScreenCastingApp\ScreenCastingClient\bin\Debug\ScreenCastingClient.exe.config
+C:\Users\66583\Source\Repos\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.exe
+C:\Users\66583\Source\Repos\ScreenCastingApp\ScreenCastingClient\obj\Debug\ScreenCastingClient.pdb

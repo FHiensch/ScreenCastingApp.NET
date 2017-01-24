@@ -15,26 +15,16 @@ namespace ScreenCastingApp
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]  
     public class ScreenCastingService : IScreenCastingService
     {
-        private readonly System.Timers.Timer timer;
         private readonly ScreenGrabber screenGrabber;
-
-        private volatile byte[] currentImageData;
 
         public ScreenCastingService()
         {
             screenGrabber = new ScreenGrabber();
-            timer = new System.Timers.Timer(150);
-            timer.Elapsed += TimerElapsed;
         }
 
         public void Start()
         {
-            timer.Start();
-        }
-
-        private void TimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
-        {
-            currentImageData = screenGrabber.CaptureScreenshotAsBytes();
+            screenGrabber.Start();
         }
         
         [WebGet(UriTemplate = "ping", BodyStyle = WebMessageBodyStyle.Bare)]
@@ -54,7 +44,7 @@ namespace ScreenCastingApp
         public Stream GetImage()
         {
 
-            byte[] imageData = WaitForNextAvailableImage();
+            byte[] imageData = screenGrabber.WaitForNextAvailableImage();
 
             WebOperationContext.Current.OutgoingResponse.ContentType = "image/jpeg";
             WebOperationContext.Current.OutgoingResponse.ContentLength = imageData.Length;
@@ -64,17 +54,6 @@ namespace ScreenCastingApp
             WebOperationContext.Current.OutgoingResponse.Headers.Add("Expires", "0");
 
             return new MemoryStream(imageData);
-        }
-
-        private byte[] WaitForNextAvailableImage()
-        {
-            byte[] imageData = currentImageData;
-            while (imageData == null)
-            {
-                imageData = currentImageData;
-                System.Threading.Thread.Sleep(50);
-            }
-            return imageData;
         }
     }
 }

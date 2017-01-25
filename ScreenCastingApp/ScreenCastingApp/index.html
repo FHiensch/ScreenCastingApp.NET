@@ -51,7 +51,6 @@
     <script>
         function refreshImage() {
             $("#screen").attr("src", "/image?" + Date.now());
-            setInterval(refreshImage, 3000);
         }
 
         function initScreenCaster() {
@@ -59,40 +58,17 @@
         }
 
         $(document).ready(function () {
-            refreshImage();
+            setInterval(refreshImage, 200);
         });
     </script>
 </head>
 <body>
     <nav>
         <div style="float:right;">Version 0.0.29.3</div>
-        <div>Präsentator: Florian@Workstation</div>
+        <div>Pr&auml;sentator: Florian@Workstation</div>
     </nav>
     <div id="screenContainer">
-        <img id="screen" src="/image" + @"" alt="Die Gegenseite ist aktuell nicht erreichbar">
+        <img id="screen" src="/image" alt="Die Gegenseite ist aktuell nicht erreichbar">
     </div>
 </body>
 </html>
-
-<!-- //function startScreenCast() {//screenCaster) {
-            function refreshImage() {
-                //    if (!screenCaster.showUpdates) {
-                //        return;
-                //    }
-                //    console.log("screen update");
-                $("#screen").attr("src", "/image?" + Date.now());
-                //}
-                setInterval(refreshImage, 3000);
-            }
-        //};
-        function initScreenCaster() {
-            //initScreenVisibilityHandling();
-            //var screenCaster = createScreenCaster();
-            //initResizeTools(screenCaster);
-            startScreenCast();//screenCaster);
-        }
-        //$(document).ready(initScreenCaster());
-        $(document).ready(function () {
-            //initScreenCaster();
-            refreshImage();
-        });-->
